@@ -1,0 +1,23 @@
+.black-container {
+    background-color: black; 
+    width: 1520px; 
+    height: 70px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    margin: 0 auto; 
+    box-sizing: border-box; 
+}
+
+.black-container h2 {
+    color: white; 
+    margin: 0; 
+    text-align: center; 
+}
+
+.black-container .small-text {
+    font-size: 22px; 
+    color: white; 
+    margin-left: 10px; 
+    display: inline; 
+}
