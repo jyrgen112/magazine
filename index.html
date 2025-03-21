@@ -1,19 +1,22 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ART & LIFE</title>
+    <title>ART & LIFE - FYRRE MAGAZINE</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <div class="logo-left">FYRRE MAGAZINE</div>
-        <div class="logo">ART & LIFE</div>
+        <div class="logo-container">
+            <div class="logo-left">FYRRE MAGAZINE</div>
+            <h1 class="logo">ART & LIFE</h1>
+        </div>
     </header>
 
     <div class="ticker-container">
         <div class="ticker">
-            NEW TICKER+++ <span class="small-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit +++ Lorem ipsum dolor sit amet, consectetur adipiscing elit +++ </span>
+            <span class="ticker-label">NEWS TICKER+++ </span><span class="small-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit +++ Lorem ipsum dolor sit amet, consectetur adipiscing elit +++ </span>
         </div>
     </div>
 
@@ -24,98 +27,329 @@
                 <div class="featured-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas dui id ornare arcu odio ut sem. Cras ornare arcu dui vivamus arcu felis bibendum ut. Porttitor leo a diam.
                 </div>
+                <div class="article-meta">
+                    <span class="meta-item">Text: John Doe</span>
+                    <span class="meta-item">Date: 15 MAR 2023</span>
+                    <span class="meta-item">Read: 5 min</span>
+                    <button class="share-btn">SHARE</button>
+                </div>
             </div>
             <div class="featured-image">
-                <img src="imgs/fd6c50f2fa4240d1a47c46609ed23e2c.jpg" alt="Featured image with overlapping faces">
+                <img src="imgs/fd6c50f2fa4240d1a47c46609ed23e2c.jpg" alt="">
             </div>
         </section>
 
-        <section class="articles-grid">
-            <article class="article-card">
-                <div class="article-image"></div>
-                <div class="date">MAR 15, 2023</div>
-                <h3>The Future of Digital Art in Web3</h3>
-                <p>Exploring new frontiers in digital ownership and creativity...</p>
-                <div class="article-tag">FEATURED</div>
-            </article>
-            <article class="article-card">
-                <div class="article-image"></div>
-                <div class="date">MAR 10, 2023</div>
-                <h3>Photography as Political Statement</h3>
-                <p>How modern photographers are shaping social discourse...</p>
-            </article>
-            <article class="article-card">
-                <div class="article-image"></div>
-                <div class="date">MAR 8, 2023</div>
-                <h3>Color Theory Reimagined</h3>
-                <p>Breaking traditional boundaries in visual composition...</p>
-            </article>
-            <article class="article-card">
-                <div class="article-image"></div>
-                <div class="date">MAR 5, 2023</div>
-                <h3>Latest Exhibit: "Reflections"</h3>
-                <p>A groundbreaking collection at the Metropolitan Gallery...</p>
-                <div class="article-tag">EXHIBIT</div>
-            </article>
-            <article class="article-card">
-                <div class="article-image"></div>
-                <div class="date">MAR 1, 2023</div>
-                <h3>The Renaissance of Mixed Media</h3>
-                <p>Artists combining traditional and digital techniques...</p>
-            </article>
-        </section>
+        <div class="articles-container">
+            <div class="articles-main">
+                <article class="article-card">
+                    <div class="article-image">
+                        <img src="imgs/063c2028e42190edd62d4a0340e002f6.jpg" alt="">
+                    </div>
+                    <div class="article-content">
+                        <h3>Hope dies last</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                        <div class="article-meta">
+                            <span class="meta-item">Text: Sarah Johnson</span>
+                            <span class="meta-item">Date: 10 MAR 2023</span>
+                            <span class="meta-item">Read: 4 min</span>
+                            <button class="share-btn">SHARE</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="article-card">
+                    <div class="article-image">
+                        <img src="imgs/4269db65eff705d2ea34384c1ae42e0b.jpg" alt="">
+                    </div>
+                    <div class="article-content">
+                        <h3>The best art museums</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                        <div class="article-meta">
+                            <span class="meta-item">Text: Michael Chen</span>
+                            <span class="meta-item">Date: 08 MAR 2023</span>
+                            <span class="meta-item">Read: 6 min</span>
+                            <button class="read-more-btn">CONTINUE READING</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="article-card">
+                    <div class="article-image">
+                        <img src="imgs/09987f0c4325269da0a66a5961e6fbe1.jpg" alt="">
+                    </div>
+                    <div class="article-content">
+                        <h3>The devil is the details</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                        <div class="article-meta">
+                            <span class="meta-item">Text: Elena Rodriguez</span>
+                            <span class="meta-item">Date: 05 MAR 2023</span>
+                            <span class="meta-item">Read: 3 min</span>
+                            <button class="share-btn">SHARE</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="article-card">
+                    <div class="article-image">
+                        <img src="imgs/b93b666147811f67c488a658712aebe8.jpg" alt="">
+                    </div>
+                    <div class="article-content">
+                        <h3>An indestructible hope</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                        <div class="article-meta">
+                            <span class="meta-item">Text: James Wilson</span>
+                            <span class="meta-item">Date: 03 MAR 2023</span>
+                            <span class="meta-item">Read: 5 min</span>
+                            <button class="share-btn">SHARE</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="article-card">
+                    <div class="article-image">
+                        <img src="imgs/ca856f64aea37ad53668901447a777fb.jpg" alt="">
+                    </div>
+                    <div class="article-content">
+                        <h3>Street art festival</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                        <div class="article-meta">
+                            <span class="meta-item">Text: Aisha Patel</span>
+                            <span class="meta-item">Date: 01 MAR 2023</span>
+                            <span class="meta-item">Read: 4 min</span>
+                            <button class="read-more-btn">CONTINUE READING</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="article-card">
+                    <div class="article-image">
+                        <img src="imgs/8181887baf8298fb59c70dbe4ff52a99.jpg" alt="">
+                    </div>
+                    <div class="article-content">
+                        <h3>Through the eyes of street artists</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                        <div class="article-meta">
+                            <span class="meta-item">Text: Jakob Dreisang</span>
+                            <span class="meta-item">Date: 28 FEB 2023</span>
+                            <span class="meta-item">Read: 5 min</span>
+                            <button class="read-more-btn">CONTINUE READING</button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <aside class="sidebar">
+                <div class="publication-info">
+                    <div class="publication-date">03/2022</div>
+                    <div class="magazine-cover">
+                        <img src="imgs/ad3fef0bf8ece9eafb930e8918e87eee.png" alt="Magazine Cover" class="magazine-cover-image">
+                        <div class="fyrre-title">FYRRE</div>
+                        <div class="magazine-title">MAGAZINE</div>
+                        <div class="issue-circle">03/2022</div>
+                    </div>
+                </div>
+            </aside>
+                </div>
+
+                <div class="most-popular">
+                    <h4>MOST POPULAR</h4>
+                    <ul class="popular-list">
+                        <li>
+                            <span class="list-number">01</span>
+                            <span class="list-title">Street art festival</span>
+                        </li>
+                        <li>
+                            <span class="list-number">02</span>
+                            <span class="list-title">Hope dies last</span>
+                        </li>
+                        <li>
+                            <span class="list-number">03</span>
+                            <span class="list-title">Artists who want to rise above</span>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+
+        <div class="all-articles">
+            <span>ALL ARTICLES</span>
+            
+        </div>
 
         <section class="podcast">
-            <h2>PODCAST</h2>
+            <div class="section-header">
+                <h2>PODCAST</h2>
+                <span class="all-items">ALL EPISODES</span>
+            </div>
+            
             <div class="podcast-grid">
                 <div class="podcast-card">
-                    <div class="podcast-image"></div>
-                    <h3>Creative Process Unveiled</h3>
-                    <div class="episode">EPISODE 42</div>
+                    <div class="podcast-image">
+                        <img src="imgs/1c6d73c7cbfb05dc6888954341d15962.png" alt="">
+                        <div class="podcast-label">FYRRE PODCAST</div>
+                    </div>
+                    <h3>The Problem of today's cultural development</h3>
+                    <div class="podcast-meta">
+                        <span>Episode: 42</span>
+                        <span>Duration: 31 min</span>
+                    </div>
                 </div>
+                
                 <div class="podcast-card">
-                    <div class="podcast-image"></div>
-                    <h3>Art Market Insights</h3>
-                    <div class="episode">EPISODE 41</div>
+                    <div class="podcast-image">
+                        <img src="imgs/f344fc20f5490a8cb172ab5771f300d8.png" alt="">
+                        <div class="podcast-label">FYRRE PODCAST</div>
+                    </div>
+                    <h3>The hidden messages of Jack Nelson</h3>
+                    <div class="podcast-meta">
+                        <span>Episode: 41</span>
+                        <span>Duration: 28 min</span>
+                    </div>
                 </div>
+                
                 <div class="podcast-card">
-                    <div class="podcast-image"></div>
-                    <h3>Curator Conversations</h3>
-                    <div class="episode">EPISODE 40</div>
+                    <div class="podcast-image">
+                        <img src="imgs/output-onlinepngtools.png" alt="">
+                        <div class="podcast-label">FYRRE PODCAST</div>
+                    </div>
+                    <h3>Behind the scenes of the street art culture</h3>
+                    <div class="podcast-meta">
+                        <span>Episode: 40</span>
+                        <span>Duration: 35 min</span>
+                    </div>
                 </div>
             </div>
         </section>
 
         <section class="authors">
-            <h2>AUTHORS</h2>
+            <div class="section-header">
+                <h2>AUTHORS</h2>
+                <span class="all-items">ALL AUTHORS</span>
+            </div>
+            
             <div class="authors-grid">
                 <div class="author-card">
-                    <div class="author-image"></div>
-                    <h3>Sarah Johnson</h3>
+                    <div class="author-image">
+                        <img src="imgs/jakob-dreisang.jpg" alt="Jakob Dreisang">
+                    </div>
+                    <h3>Jakob Dreisang</h3>
+                    <div class="author-meta">
+                        <span>EDITOR</span>
+                        <span>POSTS: 75</span>
+                    </div>
                 </div>
+                
                 <div class="author-card">
-                    <div class="author-image"></div>
-                    <h3>Michael Chen</h3>
+                    <div class="author-image">
+                        <img src="imgs/louise-jensen.jpg" alt="Louise Jensen">
+                    </div>
+                    <h3>Louise Jensen</h3>
+                    <div class="author-meta">
+                        <span>EDITOR</span>
+                        <span>POSTS: 52</span>
+                    </div>
                 </div>
+                
                 <div class="author-card">
-                    <div class="author-image"></div>
-                    <h3>Elena Rodriguez</h3>
+                    <div class="author-image">
+                        <img src="imgs/anne-henry.jpg" alt="Anne Henry">
+                    </div>
+                    <h3>Anne Henry</h3>
+                    <div class="author-meta">
+                        <span>PHOTOGRAPHER</span>
+                        <span>POSTS: 41</span>
+                    </div>
                 </div>
+                
                 <div class="author-card">
-                    <div class="author-image"></div>
-                    <h3>James Wilson</h3>
+                    <div class="author-image">
+                        <img src="imgs/anna-nielsen.jpg" alt="Anna Nielsen">
+                    </div>
+                    <h3>Anna Nielsen</h3>
+                    <div class="author-meta">
+                        <span>COLUMNIST</span>
+                        <span>POSTS: 39</span>
+                    </div>
                 </div>
+                
                 <div class="author-card">
-                    <div class="author-image"></div>
-                    <h3>Aisha Patel</h3>
+                    <div class="author-image">
+                        <img src="imgs/jane-cooper.jpg" alt="Jane Cooper">
+                    </div>
+                    <h3>Jane Cooper</h3>
+                    <div class="author-meta">
+                        <span>EDITOR</span>
+                        <span>POSTS: 31</span>
+                    </div>
+                </div>
+                
+                <div class="author-card">
+                    <div class="author-image">
+                        <img src="imgs/cristofer-vaccaro.jpg" alt="Cristofer Vaccaro">
+                    </div>
+                    <h3>Cristofer Vaccaro</h3>
+                    <div class="author-meta">
+                        <span>JOURNALIST</span>
+                        <span>POSTS: 27</span>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
 
     <footer>
+        <div class="newsletter-section">
+            <div class="newsletter-header">
+                <h2>DESIGN NEWS TO YOUR INBOX</h2>
+            </div>
+            <div class="newsletter-form">
+                <input type="email" placeholder="Email">
+                <button>SUBMIT</button>
+            </div>
+        </div>
+        
         <div class="footer-content">
-            <div class="design-note">DESIGN GUIDE TO SOMETHING</div>
+            <div class="footer-brand">FYRRE MAGAZINE</div>
+            
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4>Info</h4>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Advertise</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Media Kit</h4>
+                    <ul>
+                        <li><a href="#">Download</a></li>
+                        <li><a href="#">Rates</a></li>
+                        <li><a href="#">Print Ads</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Contact us</h4>
+                    <ul>
+                        <li><a href="#">Email us</a></li>
+                        <li><a href="#">Call us</a></li>
+                        <li><a href="#">Company</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-social">
+                <a href="#" class="social-icon">X</a>
+                <a href="#" class="social-icon">F</a>
+                <a href="#" class="social-icon">I</a>
+                <a href="#" class="social-icon">P</a>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="copyright">© 2023 FYRRE MAGAZINE - Magazine & Digital Media</div>
         </div>
     </footer>
 </body>
